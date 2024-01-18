@@ -15,12 +15,12 @@ const connect = async function () {
     const connectionParams = {
       useNewUrlParser: true,
       useUnifiedTopology: true,
-      user: "lucaskulisz",
-      pass: "5BCL2KOUHOtGE3HV",
+      user: "xxx",
+      pass: "xxxx",
     };
 
     await mongoose.connect(
-      "mongodb+srv://lucaskulisz:5BCL2KOUHOtGE3HV@cluster0.cwllt6j.mongodb.net/?retryWrites=true&w=majority",
+      "mongodb+srv://xxxx:xxxx@cluster0.cwllt6j.mongodb.net/?retryWrites=true&w=majority",
       connectionParams
     );
         console.log("Connected to the MongoDB database using Mongoose.");
